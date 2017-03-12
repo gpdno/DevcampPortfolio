@@ -30,7 +30,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+/*  background-color: #333; override with background image */
 }
 body {
   color: #fff;
@@ -178,4 +178,22 @@ body {
 .app-nav span {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("https://s3.amazonaws.com/scdewebimg/home_bg.png") no-repeat;
+  background-size: cover;
+}
+
+.app-footer {
+  color: #fff
 }
