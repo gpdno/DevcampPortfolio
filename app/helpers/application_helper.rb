@@ -16,8 +16,8 @@ module ApplicationHelper
     end
   end
 
-  def copyright_generator
-    DevcampViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+  def set_copyright
+    NickCoolViewTools::Render.copyright 'Gregory DeNinno', 'All rights reserved'
   end
 
   def nav_items
@@ -41,10 +41,6 @@ module ApplicationHelper
       {
         url: portfolios_path,
         title: 'Portfolio'
-      },
-      {
-        url: tech_news_path,
-        title: 'Tech News'
       },
     ]
   end
