@@ -55,4 +55,8 @@ module ApplicationHelper
     "active" if current_page? path
   end
 
+  def set_copyright
+    NickCoolViewTools::Render.copyright 'Gregory DeNinno', 'All rights reserved'
+  end
+
 end

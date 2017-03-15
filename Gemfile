@@ -42,6 +42,7 @@ gem 'friendly_id', '~> 5.2'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry-byebug', '~> 3.4', '>= 3.4.2'
 end
 
 group :development do
@@ -67,3 +68,5 @@ gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.6', '>= 4.6.1'
 gem 'carrierwave-aws', '~> 1.1'
 gem 'dotenv-rails', '~> 2.2'
+
+gem 'nickcool_view_tools', git: 'https://github.com/gpdno/nickcool_view_tools'
