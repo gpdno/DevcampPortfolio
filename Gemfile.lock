@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/gpdno/nickcool_view_tools
-  revision: e70b650faa0fde2650796d5058ab3de7f147c30c
-  specs:
-    nickcool_view_tools (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -135,6 +129,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_json (1.12.1)
+    nickcool_view_tools (0.1.0)
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
@@ -243,7 +238,7 @@ DEPENDENCIES
   kaminari (~> 1.0, >= 1.0.1)
   listen (~> 3.0.5)
   mini_magick (~> 4.6, >= 4.6.1)
-  nickcool_view_tools!
+  nickcool_view_tools (~> 0.1.0)
   openssl (>= 2.0.3)
   petergate (~> 1.7)
   pg (~> 0.18)

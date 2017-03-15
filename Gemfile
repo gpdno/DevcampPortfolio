@@ -69,4 +69,4 @@ gem 'mini_magick', '~> 4.6', '>= 4.6.1'
 gem 'carrierwave-aws', '~> 1.1'
 gem 'dotenv-rails', '~> 2.2'
 
-gem 'nickcool_view_tools', git: 'https://github.com/gpdno/nickcool_view_tools'
+gem 'nickcool_view_tools', '~> 0.1.0'
