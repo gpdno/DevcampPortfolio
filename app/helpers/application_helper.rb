@@ -58,7 +58,7 @@ module ApplicationHelper
   def set_copyright
     NickCoolViewTools::Render.copyright 'Gregory DeNinno', 'All rights reserved'
   end
-
+## alert functions ###
   def alerts
     alert = (flash[:alert] || flash[:error] || flash[:notice])
 
@@ -68,7 +68,7 @@ module ApplicationHelper
   end
 
   def alert_generator msg
-    js add_gritter(msg, title: "Greogry DeNinno's Portfolio", sticky: false, time: 3000)
+    js add_gritter(msg, title: "Gregory DeNinno's Portfolio", sticky: false, time: 3000)
   end
 
 end
