@@ -15,8 +15,12 @@ class BlogsController < ApplicationController
 
   # GET /blogs/1
   def show
-    @page_title = @blog.title
-    @seo_keywords = @blog.title
+    if logged_in?(:site_admin) || @blog.published?
+      @page_title = @blog.title
+      @seo_keywords = @blog.title
+    else
+      redirect_to blogs_path, notice: "Unauthorized"
+    end
   end
 
   # GET /blogs/new
