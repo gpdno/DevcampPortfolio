@@ -11,7 +11,6 @@
           <h4 class="skill-header"> Daily Use </h4>
           <% @skills.each do |skill| %>
             <div class="skill">
-              <h5><%= skill.title %></h5>
               <div class="progress">
                 <div
                   class="progress-bar progress-bar-striped bg-warning"
@@ -19,8 +18,10 @@
                   aria-valuenow="<%= skill.percent_utilized %>"
                   aria-valuemax="100"
                   style="width: <%= skill.percent_utilized %>%"
-                ></div>
+                >
+                </div>
               </div>
+              <h5><%= skill.title %></h5>
             </div>
           <% end %>
         </div>
