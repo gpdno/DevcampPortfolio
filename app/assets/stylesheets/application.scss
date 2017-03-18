@@ -87,6 +87,8 @@ h6, .h6 {
 
 .masthead-brand {
   margin-bottom: 0;
+  font-weight: bold;
+  color: #444;
 }
 
 .nav-masthead .nav-link {
@@ -99,7 +101,7 @@ h6, .h6 {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: rgba(255,255,255,.75);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -244,3 +246,9 @@ h6, .h6 {
 .skill-header {
   text-align: center;
 }
+ 
+.email,
+.email a:focus,
+a:hover .email {
+  color: #222;
+  }
