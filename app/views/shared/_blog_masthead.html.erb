@@ -1,7 +1,15 @@
 <div class="blog-header">
   <div class="container">
-    <h1 class="blog-title">My Blog</h1>
-    <p class="lead blog-description">An example blog template built with Bootstrap.</p>
-    <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+    <div class="col-md-10">
+      <h1 class="">Media<small> - What's going on?</small></h1>
+      <p class="lead blog-description">The lastest news and information</p>
+      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+    </div>
+    <div class="col-md-2 pull-right">
+      <a href="https://github.com/gpdno"><%= fa_icon "github" %></a>
+      <a href="#"><%= fa_icon "twitter" %></a>
+      <a href="https://www.facebook.com/gregory.deninno"><%= fa_icon "facebook" %></a>
+      <a href="https://www.linkedin.com/in/gregorydeninno/"><%= fa_icon "linkedin" %></a>
+    </div>
   </div>
 </div>
