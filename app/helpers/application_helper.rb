@@ -39,8 +39,16 @@ module ApplicationHelper
         title: 'Blog'
       },
       {
+        url: "https://github.com/gpdno",
+        title: 'Github'
+      },
+      {
         url: portfolios_path,
         title: 'Portfolio'
+      },
+      {
+        url: "https://itunes.apple.com/us/app/times-play/id1080213685?mt=8",
+        title: 'App Store'
       },
     ]
   end
