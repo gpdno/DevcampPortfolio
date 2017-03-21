@@ -35,24 +35,16 @@ module ApplicationHelper
         title: 'Contact'
       },
       {
-        url: blogs_path,
-        title: 'Blog'
-      },
-      {
         url: tech_news_path,
         title: 'Tech News'
       },
       {
-        url: "https://github.com/gpdno",
-        title: 'Github'
+        url: blogs_path,
+        title: 'Blog'
       },
       {
         url: portfolios_path,
         title: 'Portfolio'
-      },
-      {
-        url: "https://itunes.apple.com/us/app/times-play/id1080213685?mt=8",
-        title: 'App Store'
       },
     ]
   end
