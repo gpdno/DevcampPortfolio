@@ -175,7 +175,7 @@ h6, .h6 {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -252,3 +252,20 @@ h6, .h6 {
 a:hover .email {
   color: #222;
   }
+
+/*
+ * tech news
+ */
+
+.tech-news {
+ color: #222;
+ margin: 10px;
+}
+
+.tech-news a {
+ color: red;
+}
+
+.tech-news > .card {
+ padding: 10px;
+}
