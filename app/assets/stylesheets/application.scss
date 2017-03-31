@@ -197,7 +197,7 @@ h6, .h6 {
   margin-right: 10px;
 }
 
-#background {
+#background_home {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -208,6 +208,48 @@ h6, .h6 {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   background: url("https://s3.amazonaws.com/scdewebimg/home_bg.png") no-repeat;
+  background-size: cover;
+}
+
+#background_about {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("https://s3.amazonaws.com/scdewebimg/about_bg.png") no-repeat;
+  background-size: cover;
+}
+
+#background_contact {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("https://s3.amazonaws.com/scdewebimg/contact_bg.png") no-repeat;
+  background-size: cover;
+}
+
+#background_tech_news {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url("https://s3.amazonaws.com/scdewebimg/tech_news_bg.png") no-repeat;
   background-size: cover;
 }
 
